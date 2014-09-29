@@ -1,12 +1,12 @@
 @import "bower_components/foundation/scss/foundation/components/grid";
 
 // Custom Styles
+
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
 }
-
 .hero-unit {
   margin: 50px auto 0 auto;
   width: 900px;
@@ -14,10 +14,22 @@ body {
   font-weight: 200;
   background-color: #eee;
   border-radius: 6px;
+  text-align: center;
   h1 {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+  }
+}
+
+.resetbox {
+  margin: 50px auto 0 auto;
+  width: 300px;
+  height: 100px;
+  margin-bottom: 50px;
+  .reset {
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -32,4 +44,12 @@ body {
       
     }
   }
+}
+
+.x {
+  color: red;
+}
+
+.o {
+  color: blue;
 }
