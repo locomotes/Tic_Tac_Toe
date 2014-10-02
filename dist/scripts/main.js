@@ -23,33 +23,9 @@ $('.one, .two, .three, .four, .five, .six, .seven, .eight, .nine').click(functio
 
 
 $('.reset').click(function() {
-    $('.one').removeClass('clicked');
-    $('.one').removeClass('x');
-    $('.one').removeClass('o');
-    $('.two').removeClass('clicked');
-    $('.two').removeClass('x');
-    $('.two').removeClass('o');
-    $('.three').removeClass('clicked');
-    $('.three').removeClass('x');
-    $('.three').removeClass('o');
-    $('.four').removeClass('clicked');
-    $('.four').removeClass('x');
-    $('.four').removeClass('o');
-    $('.five').removeClass('clicked');
-    $('.five').removeClass('x');
-    $('.five').removeClass('o');
-    $('.six').removeClass('clicked');
-    $('.six').removeClass('x');
-    $('.six').removeClass('o');
-    $('.seven').removeClass('clicked');
-    $('.seven').removeClass('x');
-    $('.seven').removeClass('o');
-    $('.eight').removeClass('clicked');
-    $('.eight').removeClass('x');
-    $('.eight').removeClass('o');
-    $('.nine').removeClass('clicked');
-    $('.nine').removeClass('x');
-    $('.nine').removeClass('o');
+    $('.one, .two, .three, .four, .five, .six, .seven, .eight, .nine').removeClass('clicked');
+    $('.one, .two, .three, .four, .five, .six, .seven, .eight, .nine').removeClass('x');
+    $('.one, .two, .three, .four, .five, .six, .seven, .eight, .nine').removeClass('o');
 
     $('p').remove();
     playerturn = 0;
